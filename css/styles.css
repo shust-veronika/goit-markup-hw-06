@@ -754,10 +754,11 @@ svg footer {
     font-weight: 700;
     color: #4D5AE5;
     /* display: inline-block; */
+    margin-bottom: 16px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 16px;
 }
 
 .footer {
@@ -1403,7 +1404,53 @@ textarea::placeholder {
             padding: 100px 0;
         }
 
-        .sec
+        .section {
+            margin-right: 120px;
+        }
+        
+        .container.foot {
+            display: flex;
+            align-items: baseline;
+        }
+
+        .footer-icon-container {
+            margin-right: 80px;
+        }
+
+        .logo-footer {
+            display: inline-block;
+            align-items: none;
+            justify-content: none;
+        }
+
+        .social-title {
+            display: block;
+            align-items: none;
+            justify-content: none;
+            margin-top: 0;
+        }
+
+        .btn-subscr {
+            margin-top: 0;
+            margin-left: 0;
+        }
+
+        .form-subscr {
+            display: flex;
+        }
+
+        .text-subscr {
+            display: block;
+            align-items: none;
+            justify-content: none;
+        }
+
+        .social-item {
+            display: block;
+            align-items: none;
+            justify-content: none;
+            margin-bottom: 0;
+        }
 
         .page {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
