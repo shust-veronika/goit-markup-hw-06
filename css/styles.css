@@ -1086,7 +1086,10 @@ outline: none;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--chec-la-color);
+
+    display: flex;
     align-items: center;
+    gap: 8px;
 
 }
 
